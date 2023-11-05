@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { collection, doc, setDoc } from "firebase/firestore";
 import { db } from "./firebaseConfig"
 
@@ -61,7 +62,7 @@ export default function Suggestion(){
     return (
       <div className='dashboard'>
         <h2>Suggest companyt</h2>
-        <a href="/" className='back-button' >	&larr;</a>
+        <Link to="/" className='back-button'>&larr;</Link>
         <form onSubmit={handleUpload}>
           <input 
             className='company-input'
