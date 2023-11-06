@@ -39,12 +39,11 @@
 
 .list-container {
   position: relative;
-  width: 90%; 
+  width: 90vw; 
   margin: -9px auto; 
 }
 
 .list-item {
-  text-decoration: none;
   display: block;
   background-color: #61dafb;
   margin-bottom: 10px;
@@ -105,6 +104,9 @@
 
 .search-bar::placeholder {
   color: #242831;
+}
+.search-bar:is(:focus, :valid) ~ label {
+  transform: translateY(-120%) scale(0.7);
 }
 
 .back-button {
