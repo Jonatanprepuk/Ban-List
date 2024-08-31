@@ -1,6 +1,6 @@
 # Ban List Application
 
-A React-based web application for managing a list of banned companies (by Ukraine) with Firebase for backend services.
+A React-based web application for managing a list of banned companies (by Ukraine) with Firebase for backend services. 
 Live example: https://ban-list-app.web.app/ 
 
 ## Project Structure
